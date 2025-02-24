@@ -1,6 +1,6 @@
 # 📝 Quill to DOCX Export in React (Vite)
 
-This project demonstrates how to use **Quill** (via a CDN) in a **Vite + React** app to create and export rich-text content as a DOCX file using `quill-to-word`.  
+This project demonstrates how to use **Quill** in a **Vite + React** app to create and export rich-text content as a DOCX file using `quill-to-word`.  
 
 🔗 **Live Demo & Editable Code:**  
 [Check it out on StackBlitz](https://stackblitz.com/edit/vitejs-vite-dtveetsx)
@@ -8,7 +8,7 @@ This project demonstrates how to use **Quill** (via a CDN) in a **Vite + React**
 ---
 
 ## 🚀 Features
-- Uses **Quill.js** from a CDN (no need to install `react-quill`).
+- Uses **Quill.js**.
 - Initializes Quill inside a **React functional component**.
 - Converts the **Quill Delta format to a DOCX file**.
 - Uses `file-saver` to **download** the exported file.
@@ -20,8 +20,7 @@ This project demonstrates how to use **Quill** (via a CDN) in a **Vite + React**
 Clone this repo and install dependencies:
 
 ```sh
-git clone https://github.com/your-repo/quill-to-docx-react.git
-cd quill-to-docx-react
+git clone https://github.com/xautiik/Quill-to-word-vite-React-.git
+cd Quill-to-word-vite-React-
 npm install
 npm run dev
-
