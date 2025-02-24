@@ -1,8 +1,27 @@
-# React + Vite
+# 📝 Quill to DOCX Export in React (Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to use **Quill** (via a CDN) in a **Vite + React** app to create and export rich-text content as a DOCX file using `quill-to-word`.  
 
-Currently, two official plugins are available:
+🔗 **Live Demo & Editable Code:**  
+[Check it out on StackBlitz](https://stackblitz.com/edit/vitejs-vite-dtveetsx)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🚀 Features
+- Uses **Quill.js** from a CDN (no need to install `react-quill`).
+- Initializes Quill inside a **React functional component**.
+- Converts the **Quill Delta format to a DOCX file**.
+- Uses `file-saver` to **download** the exported file.
+
+---
+
+## 🛠️ Installation
+
+Clone this repo and install dependencies:
+
+```sh
+git clone https://github.com/your-repo/quill-to-docx-react.git
+cd quill-to-docx-react
+npm install
+npm run dev
+
