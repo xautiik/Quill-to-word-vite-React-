@@ -20,7 +20,7 @@ This project demonstrates how to use **Quill** in a **Vite + React** app to crea
 Clone this repo and install dependencies:
 
 ```sh
-git clone https://github.com/xautiik/Quill-to-word-vite-React-.git
-cd Quill-to-word-vite-React-
+git clone https://github.com/xautiik/quill-to-word--vite-react.git
+cd quill-to-word--vite-react
 npm install
 npm run dev
